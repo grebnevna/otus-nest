@@ -3,6 +3,8 @@ export class IoC {
 	public static rootScope = new Map();
 	public static currentScope: Map<string, (...args: any[]) => any> | null = IoC.rootScope;
 
+	public static scopeMap = new Map<string, Map<string, (...args: any[]) => any>>();
+
 	static resolve<T>(dependencyName: string, ...args: any[]): T {
 		let _current = this.currentScope;
 		let dependency: T;

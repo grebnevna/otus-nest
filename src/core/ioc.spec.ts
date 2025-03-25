@@ -1,6 +1,6 @@
 import { IoC } from './ioc';
 import { Command } from '../models/command';
-import { InitCommand } from './commands/init-command';
+import { InitCommand } from './commands/ioc/init-command';
 
 const initCommand = new InitCommand();
 const testFunction = (value: string) => value;

@@ -41,6 +41,6 @@ export class InitCommand implements Command {
 
 				return creatingScope;
 			}
-		)
+		);
 	}
 }
