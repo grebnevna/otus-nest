@@ -1,9 +1,291 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="Страница — 1" id="AcdwzzeykZSZn9IqCC8H">
-    <mxGraphModel>
+    <mxGraphModel dx="3987" dy="1860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0wPd844jcBHAcqrgVHj_-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0wPd844jcBHAcqrgVHj_-2" target="0wPd844jcBHAcqrgVHj_-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-2" value="UserService" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-268" y="1080" width="300" height="114" as="geometry">
+            <mxRectangle x="210" y="100" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-3" value="Регистрация пользователей" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-2">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-4" value="Аутентификация пользователей" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-2">
+          <mxGeometry y="52" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-7" value="Хранение данных игроков (аватар, никнейм, рейтинг, регион)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-2">
+          <mxGeometry y="78" width="300" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0wPd844jcBHAcqrgVHj_-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="1349" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-10" value="TournamentService" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1080" width="300" height="140" as="geometry">
+            <mxRectangle x="210" y="100" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-11" value="Создание турниров (регулярных и разовых)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-10">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-12" value="Обработка заявок на участие" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-10">
+          <mxGeometry y="52" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-14" value="Расписание турниров" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-10">
+          <mxGeometry y="78" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-15" value="История турниров" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-10">
+          <mxGeometry y="104" width="300" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-17" value="MatchmakingService" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1080" width="300" height="78" as="geometry">
+            <mxRectangle x="210" y="100" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-18" value="Организация парных боев" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-17">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-19" value="Формирование боев в рамках турнира" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-17">
+          <mxGeometry y="52" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-23" value="BattleService" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="133" y="1080" width="300" height="52" as="geometry">
+            <mxRectangle x="210" y="100" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-24" value="Проведение боев, выполнение игровых операций" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-23">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0wPd844jcBHAcqrgVHj_-33" target="0wPd844jcBHAcqrgVHj_-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-33" value="GameRecordService" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1080" width="300" height="104" as="geometry">
+            <mxRectangle x="210" y="100" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-35" value="Видеозапись боев" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-33">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-36" value="Хранение видеозаписей боев" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-33">
+          <mxGeometry y="52" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-77" value="Хранение историии боев" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-33">
+          <mxGeometry y="78" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-38" value="RatingService" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="1080" width="300" height="78" as="geometry">
+            <mxRectangle x="210" y="100" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-39" value="Присуждение рейтингов турнирам" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-38">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-40" value="Начисление рейтинга игрокам" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-38">
+          <mxGeometry y="52" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-41" value="ApiGateway" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="24" y="688" width="300" height="52" as="geometry">
+            <mxRectangle x="210" y="100" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-42" value="Маршрутизация" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-41">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-53" value="NotificationService" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1080" width="300" height="148" as="geometry">
+            <mxRectangle x="210" y="100" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-54" value="Уведомления о приглашении на турнир" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-53">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-55" value="Уведомления о решении по заявке на организацию турнира" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-53">
+          <mxGeometry y="52" width="300" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-130" value="Уведомления о предстоящей игре" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-53">
+          <mxGeometry y="100" width="300" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0wPd844jcBHAcqrgVHj_-56" target="0wPd844jcBHAcqrgVHj_-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0wPd844jcBHAcqrgVHj_-56" target="0wPd844jcBHAcqrgVHj_-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="174" y="680" />
+              <mxPoint x="174" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-56" value="Клиент" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="598" width="300" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-59" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="1350" width="340" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-60" value="UserDb" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-268" y="1350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-65" value="Таблица User" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-345" y="1390" width="220" height="140" as="geometry">
+            <mxRectangle x="210" y="100" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-66" value="id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-65">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-67" value="name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-65">
+          <mxGeometry y="52" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-68" value="rating" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-65">
+          <mxGeometry y="78" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-69" value="avatarSrc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-65">
+          <mxGeometry y="104" width="220" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-81" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1350" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-82" value="GameRecordDb" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-83" value="Таблица GameHistory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1412" width="220" height="182" as="geometry">
+            <mxRectangle x="210" y="100" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-84" value="gameId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-83">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-93" value="duration" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-83">
+          <mxGeometry y="52" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-94" value="status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-83">
+          <mxGeometry y="78" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-103" value="videoRecordSrc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-83">
+          <mxGeometry y="104" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-113" value="winnerId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-83">
+          <mxGeometry y="130" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-129" value="gameDate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-83">
+          <mxGeometry y="156" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-86" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="557" y="660" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-87" value="&lt;span style=&quot;text-align: left;&quot;&gt;S3 Object storage&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="647" y="660" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-91" value="Хранение видеозаписей матчей&lt;br&gt;&lt;span style=&quot;color: rgb(18, 18, 18); background-color: rgb(211, 213, 214);&quot;&gt;Хранение картинок профилей&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="557" y="700" width="270" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-104" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1350" width="470" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-105" value="TournamentDb" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-106" value="Таблица Tournament" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1412" width="220" height="156" as="geometry">
+            <mxRectangle x="210" y="100" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-107" value="tournamentId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-106">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-108" value="tournamentDate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-106">
+          <mxGeometry y="52" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-109" value="status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-106">
+          <mxGeometry y="78" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-110" value="rating" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-106">
+          <mxGeometry y="104" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-112" value="winnerId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-106">
+          <mxGeometry y="130" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-115" value="Таблица TournamentParticipants" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1412" width="220" height="120" as="geometry">
+            <mxRectangle x="210" y="100" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-116" value="tournamentId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-115">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-117" value="userId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-115">
+          <mxGeometry y="52" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-144" value="round (раунд до которого дошел игрок)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-115">
+          <mxGeometry y="78" width="220" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-121" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1350" width="280" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-122" value="MatchmakingDb" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="1350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-123" value="Таблица GameShedule" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="1412" width="220" height="150" as="geometry">
+            <mxRectangle x="210" y="100" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-124" value="gameId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-123">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-128" value="date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-123">
+          <mxGeometry y="52" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-131" value="status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-123">
+          <mxGeometry y="78" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-132" value="tournamentId (null, если игра вне турнира)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="0wPd844jcBHAcqrgVHj_-123">
+          <mxGeometry y="104" width="220" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0wPd844jcBHAcqrgVHj_-36" target="0wPd844jcBHAcqrgVHj_-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.679;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0wPd844jcBHAcqrgVHj_-17" target="0wPd844jcBHAcqrgVHj_-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-141" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Потоки сообщений&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;1) Сохранение аватарки в S3 Object storage&lt;br&gt;2) получение запроса на изменение рейтинга от RatingService&lt;br&gt;3) получение данных пользователей при регистрации от клиента / сторонних сервисов, поддерживающих OAuth&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-268" y="920" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-142" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Потоки сообщений&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;1) Получение игровых команд от клиента&lt;br&gt;2) Отправка обновленного состояния игрового объекта обратно клиенту&lt;br&gt;3) Уведомление GameRecordService об окончании игры, отправка результата игры&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="133" y="930" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-143" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Потоки сообщений&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;1) При обработке заявок на участие отправка запроса в UserService для получения рейтинга и регионов игроков&lt;br&gt;2) При создании турнира отправка запроса в RatingService для присвоения ему рейтинга&lt;br&gt;3) После того как состав участников утвержден уведомляем NotificationService для оповещения игроков&lt;br&gt;4)&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;После того как состав участников утвержден отправляем запрос в MatchmakingService для формирования турнирной сетки&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="860" width="300" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-145" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Потоки сообщений&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;1) Получение от BattleService результатов игр&lt;br&gt;&lt;/p&gt;&lt;p&gt;2) Запись игр в Object storage&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="980" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-146" value="Отображение аватарки, трансляция видеоповторов игр" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="359" y="585" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-147" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Потоки сообщений&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;1) Получение от TournamentService запроса на формирование турнирной сетки&lt;br&gt;2) Получение от клиента запроса на организацию парного боя&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="950" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-148" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Потоки сообщений&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;1) Получение от TournamentService запроса на присуждение рейтинга&lt;br&gt;2) отправка в UserService запроса на изменение рейтинга игрокам&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="950" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-149" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Потоки сообщений&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;1) Получение сообщений от TournamentService&lt;br&gt;2)&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Получение сообщений от MatchmakingService&lt;br&gt;3) Отправка сообщений на клиент&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="950" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-150" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Узкие места и потенциальные проблемы масштабирования&lt;/h1&gt;&lt;p&gt;1) Высокая нагрузка на MatchmakingService при массовой регистрации турниров и формировании пар. &lt;br&gt;Решение: очереди задач (RabbitMQ, Kafka): асинхронная обработка матчмейкинга, балансировка нагрузки.&lt;br&gt;2) При одновременном проведении множества игр может быть большая нагрузка на BattleService&lt;br&gt;Решение: использовать автомасштабирование Kubernetes&lt;br&gt;3) Высокая нагрузка на NotificationService&lt;br&gt;Решение: отправлять сообщения Batch&#39;ами (со стороны TournamentService). Приоритизация важных сообщений (например, уведомление о скором начале игры)&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="400" width="370" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="0wPd844jcBHAcqrgVHj_-151" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Компоненты, к которым чаще всего будут меняться требования&lt;/h1&gt;&lt;p&gt;1) TournamentService: могут варьироваться форматы турниров, типы турниров (открытые/закрытые, сезонные). Решение - использовать гибкую конфигурацию (yaml) вместо хардкода.&lt;br&gt;2) RatingService: алгоритмы расчета рейтинга могут варьироваться, также разные типы турниров могут по-разному влиять на рейтинг. Решение - сделать расчеты рейтинга через плагины, чтобы не переписывать каждый раз код.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="670" width="370" height="300" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
